@@ -1,0 +1,20 @@
+{
+    "extensions":
+    [
+        "aux",
+        "bbl",
+        "bcf",
+        "bdx",
+        "log",
+        "lol",
+        "lot",
+        "xml",
+        "gz",
+        "toc",
+        "idx",
+        "lof",
+        "out",
+        "blg"
+    ],
+    "path":"C:/Users/tzippmi/Desktop/LatexCleanUpTool/"
+}
