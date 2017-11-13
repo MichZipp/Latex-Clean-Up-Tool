@@ -4,6 +4,8 @@ This tool was created to clean up a latex project. I had the problem, that somet
 
 Furthermore, this tool can be used to delete specified file extensions in a directory recursively. 
 
+This tool was tested sucessfully under Python 2.7.14!
+
 ## Configuration 
 The `CleanUpConfig.json` defines the file extension to delete and the path to the directory.
 ```json
@@ -21,6 +23,17 @@ The `CleanUpConfig.json` defines the file extension to delete and the path to th
 Make sure that the `CleanUp.py` and `CleanUpConfig.json` are in the same directory. If not, change the path in the `CleanUp.py` to the `CleanUpConfig.json`. To run the tool just type in the console:
 ```console
 python CleanUp.py
+```
+
+## Building
+If you want to run this tool on machines without a python installation. You can build stand-alone executables. 
+1. Install `pyinstaller`:
+```console
+pip install pyinstaller
+```
+2. Build stand-alone executables:
+```console
+pyinstaller CleanUp.py
 ```
 
 
