@@ -7,7 +7,7 @@ Furthermore, this tool can be used to delete specified file extensions in a dire
 This tool was tested sucessfully under Python 2.7.14!
 
 ## Configuration 
-The `CleanUpConfig.json` defines the file extension to delete and the path to the directory.
+The `CleanUpConfig.json` defines the file extension to delete and the path to the directory. 
 ```json
 {
     "extensions":
